@@ -13,7 +13,7 @@ class TestBase extends GuzzleTestCase
 {
     protected function setUp()
     {
-        Config::initialise("sandbox", "", "");
+        Config::initialise("sandbox", "whl", "whl");
     }
 }
 ?>
